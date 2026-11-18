@@ -6,8 +6,7 @@ The original Flask backend included **12 REST endpoints**. This public repositor
 
 ## Features
 
-- User registration, sign-in, profile viewing, and sign-out.
-- Five REST endpoints for registration, sign-in, profile retrieval, protected access, and sign-out.
+- Account registration, sign-in, profile access, and sign-out, with a protected API route.
 - A local API test console at `/test-api` in development mode.
 
 ## Setup and testing
