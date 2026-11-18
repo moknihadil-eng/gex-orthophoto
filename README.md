@@ -1,11 +1,18 @@
 # Gex-Orthophoto
 
-Prototype full-stack React et Flask pour l?authentification et l?acc?s ? un espace utilisateur.
+Application web full-stack développée avec React et Flask pour gérer l’authentification et l’accès à un espace utilisateur.
 
-- Inscription, connexion, profil et d?connexion.
-- Cinq routes REST et une console de test locale sur /test-api en d?veloppement.
-- Tests d?authentification c?t? Flask et de contr?le d?acc?s c?t? React.
+## Fonctionnalités
 
-Consulter le [guide de d?marrage](NouveauBack/README.md) pour configurer la base, d?marrer les serveurs et lancer les tests.
+- Inscription, connexion, consultation du profil et déconnexion.
+- Cinq routes REST pour l’inscription, la connexion, le profil, l’accès protégé et la déconnexion.
+- Console locale de test de l’API, accessible à l’adresse `/test-api` en mode développement.
 
-Le traitement des orthophotos reste ? impl?menter. Les tests Flask utilisent SQLite en m?moire.
+## Démarrage et tests
+
+Le [guide de démarrage](NouveauBack/README.md) explique comment configurer la base de données, démarrer les serveurs et lancer les tests.
+
+- Tests d’authentification côté Flask avec une base SQLite en mémoire.
+- Tests de contrôle d’accès côté React.
+
+Le traitement des orthophotos reste à implémenter.
