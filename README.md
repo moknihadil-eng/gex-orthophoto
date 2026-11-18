@@ -2,6 +2,8 @@
 
 Application web full-stack développée avec React et Flask pour gérer l’authentification et l’accès à un espace utilisateur.
 
+Le backend Flask d’origine comptait **12 endpoints REST**. Ce dépôt public expose **5 endpoints**, décrits ci-dessous.
+
 ## Fonctionnalités
 
 - Inscription, connexion, consultation du profil et déconnexion.
